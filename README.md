@@ -69,7 +69,9 @@ front == rear 가 참이면 공백상태로 종료
 ### 2. 순차 자료구조를 이용한 원형 큐 구현
 선형 큐의 문제를 해결하기 위해 원형 큐를 사용하면 된다.
 **<선형 큐의 문제>**
+
 ![](https://velog.velcdn.com/images/skywum/post/de27935e-a713-4ca8-b35b-5295417fa76f/image.jpg)
+
 삭제연산(deQueue)을 수행시 빗금에 해당되는 부분은 더이상 접근하지도 사용하지도 못해 버려지는 공간이 생겨자원이 낭비되는 문제가 발생한다.
 이를 해결하기 위해 만들어 진것이 원형 큐이다.
 원형큐는 논리적으로 배열의 처음과 끝을 연결시켜 원형의 모습을 띄는 큐이다.&ensp;_~~(마치 도넛과 같다)~~_
@@ -155,6 +157,7 @@ void enCQueue(QueueType* cQ, int value) {
 
 ### 2. 연결 자료구조를 이용한 큐 구현
 <br>
+
 **<연결 큐>**
 ![](https://velog.velcdn.com/images/skywum/post/f6495f99-cfde-4c45-9d8d-b6a904be3033/image.PNG)
 
