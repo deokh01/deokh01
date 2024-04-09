@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-<# Queue
+# Queue
 
 
 > **큐(Queue)란?**
