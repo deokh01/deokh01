@@ -1,20 +1,6 @@
 ### Hi there 👋
 
-<!--
-**deokh01/deokh01** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-# Queue
+<# Queue
 
 
 > **큐(Queue)란?**
@@ -35,9 +21,9 @@ front에서 이루어지는 삭제 연산을 deQueue(pop)이라 한다.
 <br>
 
 > **큐의 구현방식**<br>
-_1. 순차 자료구조를 이용(선형 큐)
-2. 원형 큐
-3. 연결 자료구조를 이용(연결 큐)_
+>_1. 순차 자료구조를 이용(선형 큐)
+>2. 원형 큐
+>3. 연결 자료구조를 이용(연결 큐)_
 
 ### 1. 순차 자료구조를 이용한 큐 구현
 1차원 배열을 사용하여 순차 자료구조 방식으로 큐를 구현한다.
@@ -242,6 +228,14 @@ int pop(Queue* q) {
     return value;
 }
 ```
+_삽입/삭제 연산 코드_
+
+삽입(push) 연산시 노드와 삽입 값을 가져오고
+새로운 노드를 할당받아 삽입할 값과 주소값을 설정한다.
+공백인지 아닌지 구분 후 공백이라면 새로만든 노드를 바로 연결해주고 공백이 아니라면 기존의 노드에 새로만든 노드를 연결한다.
+
+삭제(pop)연산시 공백인지 아닌지 확인을 한 후에 삭제할 노드를 정해준다.
+현재 fornt의 데이터 필드를 새로운 변수 value에 저장 후 front를 이동시키고 value를 반환시키면 끝이다.
 _삽입/삭제 연산 코드_
 
 삽입(push) 연산시 노드와 삽입 값을 가져오고
