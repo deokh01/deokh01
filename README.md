@@ -162,6 +162,8 @@ void enCQueue(QueueType* cQ, int value) {
 ![](https://velog.velcdn.com/images/skywum/post/f6495f99-cfde-4c45-9d8d-b6a904be3033/image.PNG)
 <br>
 **<연결 큐>**
+<br>
+
 메모리의 크기가 정해져있는 원형 큐의 문제점을 보완하고자 나온 개념이 연결 큐이다.
 연결 큐는 데이터필드와 주소필드 그리고 가장 앞의 값을 가리키는 참조변수 front와 끝 값을 가리키는 참조변수 rear를 사용한다.
 
