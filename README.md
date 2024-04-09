@@ -154,6 +154,7 @@ void enCQueue(QueueType* cQ, int value) {
 <br>
 
 ### 2. 연결 자료구조를 이용한 큐 구현
+<br>
 **<연결 큐>**
 ![](https://velog.velcdn.com/images/skywum/post/f6495f99-cfde-4c45-9d8d-b6a904be3033/image.PNG)
 
@@ -228,6 +229,7 @@ int pop(Queue* q) {
     return value;
 }
 ```
+<br>
 _삽입/삭제 연산 코드_
 
 삽입(push) 연산시 노드와 삽입 값을 가져오고
